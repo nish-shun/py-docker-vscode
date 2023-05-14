@@ -1,0 +1,13 @@
+{
+	// What is this?
+	"name": "py-container",
+	"dockerComposeFile": "../docker-compose.yml",
+	// Service name in docker-compose.yml
+	"service": "app",
+	// VSCode workspace in specified service
+	"workspaceFolder": "/var/docker-python/app",
+	// Extenions in remote environment
+	"extensions": [
+		"ms-python.python"
+	]
+}
